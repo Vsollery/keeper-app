@@ -1,10 +1,11 @@
 import React from "react";
+import HighlightIcon from '@mui/icons-material/Highlight';
 
 const Header =() =>{
 
     return(
         <header>
-            <h1>Kepeer</h1>
+            <h1> <HighlightIcon /> Kepeer</h1>
         </header>
 
     )
